@@ -1,0 +1,33 @@
+# Ignore Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env/
+*.venv
+
+# Ignore logs and temporary files
+*.log
+debug.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configuration files
+.vscode/
+.idea/
+
+# Ignore package metadata
+*.egg-info/
+pip-wheel-metadata/
+
+# Ignore build files
+build/
+dist/
+*.exe
+
+# Ignore quiz results file
+quiz_results.txt
