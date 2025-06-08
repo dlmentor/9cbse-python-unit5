@@ -1,0 +1,129 @@
+{
+    "question": [
+        "What is the purpose of the `print()` function in Python?",
+        "What will be the output of the following code?\nprint(\"Hello, World!\")",
+        "Which function is used to take user input in Python?",
+        "What is the default data type returned by the `input()` function?",
+        "What will be the output of the following conditional statement? \nx = 10 \nif x > 5: \n    print(\"Greater than 5\") \nelse:\n    print(\"Less than or equal to 5\")",
+        "What is the purpose of the `for` loop in Python?",
+        "How many times will the following loop execute?\nfor i in range(3):\n    print(i)",
+        "What will be the output of the following code?\nmy_list = [1, 2, 3, 4, 5]\nprint(my_list[2])",
+        "What is slicing in Python lists?",
+        "What will be the output of the following code?\nmy_list = [10, 20, 30, 40, 50]\nprint(my_list[1:4])",
+        "Which statement is used to stop a loop prematurely in Python?",
+        "What will be the output of the following code?\nfor i in range(5):\n    if i == 3:\n        break\n    print(i)",
+        "What will be the output of the following code?\nprint([1, 2, 3] + [4, 5, 6])",
+        "What will be the output of the following `while` loop?\nx = 5\nwhile x > 0:\n    print(x)\n    x -= 2",
+        "How do you add an element to a list in Python?"
+    ],
+    "options": [
+        [
+            "To take input from the user",
+            "To display output to the screen",
+            "To perform calculations",
+            "To define variables"
+        ],
+        [
+            "Hello, World!",
+            "\"Hello, World!\"",
+            "(Hello, World!)",
+            "SyntaxError"
+        ],
+        [
+            "scan()",
+            "read()",
+            "input()",
+            "print()"
+        ],
+        [
+            "`int`",
+            "`float`",
+            "`str`",
+            "`bool`"
+        ],
+        [
+            "Greater than 5",
+            "Less than or equal to 5",
+            "10",
+            "SyntaxError"
+        ],
+        [
+            "To execute code only once",
+            "To iterate over a sequence",
+            "To define variables",
+            "To create functions"
+        ],
+        [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        [
+            "1",
+            "2",
+            "3",
+            "5"
+        ],
+        [
+            "Extracting a portion of a list",
+            "Deleting items from a list",
+            "Adding elements to a list",
+            "Sorting a list"
+        ],
+        [
+            "[10, 20, 30]",
+            "[20, 30, 40]",
+            "[30, 40, 50]",
+            "SyntaxError"
+        ],
+        [
+            "pass",
+            "continue",
+            "break",
+            "return"
+        ],
+        [
+            "0 1 2",
+            "0 1 2 3 4",
+            "3 4",
+            "SyntaxError"
+        ],
+        [
+            "[1, 2, 3, 4, 5, 6]",
+            "[1, 2, 3][4, 5, 6]",
+            "SyntaxError",
+            "6"
+        ],
+        [
+            "5 3 1",
+            "5 4 3 2 1",
+            "Infinite loop",
+            "SyntaxError"
+        ],
+        [
+            "my_list.append(element)",
+            "my_list.add(element)",
+            "my_list.insert(element)",
+            "my_list.push(element)"
+        ]
+    ],
+    "answer": [1, 0, 2, 2, 0, 1, 2, 2, 0, 1, 2, 0, 0, 0, 0],
+    "tips": [
+        "The `print()` function is used to output text or values to the console, making it essential for displaying results or debugging code.",
+        "The `print()` function outputs the exact string inside its parentheses, without adding extra quotes or parentheses.",
+        "Python has a built-in function that prompts the user to enter data via the console, storing it for use in the program.",
+        "The `input()` function always captures user input as a string, even if the user enters numbers, unless converted to another type.",
+        "The `if` statement checks if `x` is greater than 5. Since `x` is 10, the condition is true, so the `print` statement inside the `if` block executes.",
+        "A `for` loop is used to repeat a block of code for each item in a sequence, such as a list or range, making iteration easier.",
+        "The `range(3)` generates numbers from 0 to 2 (excluding 3), so the loop runs once for each number in this range.",
+        "List indexing in Python starts at 0, so the element at index 2 is the third item in the list.",
+        "Slicing allows you to extract a subset of elements from a list using a start and end index, like `list[start:end]`.",
+        "Slicing `my_list[1:4]` returns elements from index 1 up to, but not including, index 4.",
+        "Python has a keyword that immediately exits a loop, stopping further iterations, unlike keywords that skip or do nothing.",
+        "The `break` statement exits the loop when `i` equals 3, so only values of `i` before 3 are printed.",
+        "The `+` operator with lists concatenates them, combining all elements into a single list in the order they appear.",
+        "The `while` loop runs as long as `x` is greater than 0, printing `x` and decreasing it by 2 each iteration.",
+        "Lists in Python have a method that adds an element to the end, which is commonly used for appending items."
+    ]
+}

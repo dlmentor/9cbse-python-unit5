@@ -1,0 +1,3 @@
+tkinter  # Built-in with Python, but included for clarity
+json     # Built-in for handling quiz data
+random   # Built-in for randomizing questions
