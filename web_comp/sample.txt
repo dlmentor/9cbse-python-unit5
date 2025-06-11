@@ -1,0 +1,12 @@
+f you prefer creating it directly on GitHub, do this:
+
+Go to your repository: GitHub Repository.
+
+Click Add file → Create new file.
+
+In the filename box, type:
+
+web_comp/sample.txt
+Scroll down and click Commit changes.
+After creating the folder, you can upload files into web_comp by clicking Upload files inside it.
+Click on the BUTTON Commit changes
