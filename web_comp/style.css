@@ -1,0 +1,121 @@
+/* Ensure the body is scrollable and content fits on mobile */
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 3rem; /* Increased for better scroll space */
+}
+pre {
+    background-color: #1f2937;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 14px;
+    overflow-x: auto;
+}
+code {
+    font-family: monospace;
+}
+
+/* Progress bar container */
+.progress-bar-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    height: 2.5rem; /* Fixed height to prevent layout shifts */
+}
+
+/* Progress bar styling */ 
+   .progress-bar {
+    background-color: #3b82f6;
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.3s ease-in-out;
+}
+
+/* Quiz container */
+#quiz-container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    min-height: 50vh; /* Ensure enough space for content */
+}
+
+/* Result sheet container */
+#result-sheet {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 60vh; /* Limit height for vertical scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+/* Result sheet table */
+#result-sheet table {
+    min-width: 100%;
+    font-size: 0.875rem; /* Base font size for readability */
+    table-layout: fixed; /* Prevent column width issues */
+}
+
+/* Table cells */
+#result-sheet th, #result-sheet td {
+    padding: 0.75rem; /* Increased padding for better readability */
+    border: 1px solid #e5e7eb;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: left;
+}
+
+/* Responsive buttons */
+#result-container button {
+    width: 100%;
+    max-width: 250px; /* Slightly larger for touch targets */
+    padding: 0.75rem 1rem; /* Improved touch area */
+}
+
+/* Question content for code blocks */
+#question-content pre {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 640px) {
+    #quiz-container {
+        padding: 1rem;
+    }
+
+    #result-sheet table {
+        font-size: 0.75rem; /* Slightly smaller for mobile */
+    }
+
+    #result-sheet th, #result-sheet td {
+        padding: 0.5rem; /* Adjusted for smaller screens */
+    }
+
+    .flex.space-x-4 {
+        flex-direction: column;
+        gap: 1.5rem; /* Increased gap for clarity */
+    }
+
+    #result-container button {
+        max-width: none; /* Full width on mobile */
+    }
+
+    /* Ensure code blocks are scrollable on mobile */
+    #question-content pre {
+        font-size: 0.75rem;
+    }
+}
+
+/* Ensure touch-friendly interactions */
+button, label {
+    touch-action: manipulation; /* Improve touch responsiveness */
+}
+
+/* Hover effects for non-touch devices */
+@media (hover: hover) {
+    button:hover {
+        transform: scale(1.05);
+        transition: transform 0.2s ease-in-out;
+    }
+}
