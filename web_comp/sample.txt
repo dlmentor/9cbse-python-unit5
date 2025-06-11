@@ -1,0 +1,9 @@
+If you prefer, you can create the folder manually:
+
+Go to your repository.
+
+Click Add file → Create new file.
+
+Type web_comp/sample.txt (GitHub requires at least one file).
+
+Click Commit changes.
